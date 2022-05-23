@@ -20,7 +20,7 @@ app.use(
 );
 
 app.use("/", (req, res) => {
-  res.send("test");
+  res.send("<h1> grapqhl tutorial net ninja </h1>");
 });
 
 app.listen(3000, () => {
